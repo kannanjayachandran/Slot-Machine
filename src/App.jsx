@@ -6,7 +6,7 @@ const slot_algo = () => {
   if (x === y && y === z) {
     return (
       <>
-        <div className="slot_won">
+        <div className="slot_inner">
           <h1> {x} {y} {z} </h1>
           <hr />
           <h1>🎉 You won 🎉</h1>
@@ -17,7 +17,7 @@ const slot_algo = () => {
 
     return (
       <>
-        <div className="slot_won">
+        <div className="slot_inner">
           <h1> {x} {y} {z} </h1>
           <hr />
           <h1>Not Matching</h1>
