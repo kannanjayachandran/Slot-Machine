@@ -14,7 +14,7 @@ const App = ({ id, owned, close, expires }) => {
   const [input, setInput] = useState()
   const [realBet, setRealBet] = useState()
   const [jackpot, setJackpot] = useState(0)
-  const [balance, setBalance] = useState(100000)
+  const [balance, setBalance] = useState(0)
 
 
   useEffect(() => {
